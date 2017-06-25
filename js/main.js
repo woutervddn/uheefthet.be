@@ -47,9 +47,7 @@ $(document).ready(function(){
     $("#wordmark").removeClass('hidden');
     $("#social").removeClass('hidden');
   });
-  $("#reset").click(function(e){
-    e.preventDefault();
-    window.location.hash="";
+  $("#reset").click(function(){
     window.location.reload();
   })
 });

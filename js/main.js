@@ -23,8 +23,8 @@ $(document).ready(function(){
     fixSocial();
     var theWord = theHash.toUpperCase();
     var theLetter = theWord.substr(0,1);
-    $("#theWord").html(theWord);
-    $("#theLetter").html(theLetter);
+    $("#theWord").text(theWord);
+    $("#theLetter").text(theLetter);
     $("#wordmark").removeClass('hidden');
     $("#social").removeClass('hidden');
     //alert(theHash);
@@ -41,8 +41,8 @@ $(document).ready(function(){
     var theHash = window.location.hash.substr(3,(window.location.hash.length-3));
     var theWord = theHash.toUpperCase();
     var theLetter = theWord.substr(0,1);
-    $("#theWord").html(theWord);
-    $("#theLetter").html(theLetter);
+    $("#theWord").text(theWord);
+    $("#theLetter").text(theLetter);
     $("#form").hide();
     $("#wordmark").removeClass('hidden');
     $("#social").removeClass('hidden');
